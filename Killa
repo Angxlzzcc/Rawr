@@ -202,7 +202,7 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
-Tab:AddButton({
+MainTab:AddButton({
 	Name = "Sky AntiLock!",
 	Callback = function()
       		getgenv().Sky = true 
@@ -224,7 +224,7 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
-Tab:AddButton({
+MainTab:AddButton({
 	Name = "AntiLockV2",
 	Callback = function()
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/wenny69420/KirbswareScripts/main/MobileV3'))()
@@ -236,7 +236,7 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
-Tab:AddButton({
+MainTab:AddButton({
 	Name = "Fps Spoofer",
 	Callback = function()
       		{
@@ -254,7 +254,7 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
-Tab:AddButton({
+MainTab:AddButton({
 	Name = "Looten",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Angxlzzcc/Lil/main/Pillar"))()
@@ -266,7 +266,7 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
-Tab:AddButton({
+MainTab:AddButton({
 	Name = "Desync(again)",
 	Callback = function()
       		loadstring(game:HttpGet("https://pastebin.com/raw/XsEn1RkF",true))()
@@ -278,7 +278,7 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
-Tab:AddButton({
+MainTab:AddButton({
 	Name = "Camlock",
 	Callback = function()
       		getgenv().Prediction = 0.12389724521
