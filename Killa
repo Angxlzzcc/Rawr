@@ -205,17 +205,7 @@ Callback = <function> - The function of the button.
 MainTab:AddButton({
 	Name = "Sky AntiLock!",
 	Callback = function()
-      		getgenv().Sky = true 
-getgenv().SkyAmount = 1600
-
-game:GetService("RunService").heartbeat:Connect(function()
-    if getgenv().Sky ~= false then 
-    local vel = game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity
-    game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,      getgenv().SkyAmount,0) 
-    game:GetService("RunService").RenderStepped:Wait()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = vel
-    end 
-end)
+      		loadstring(game:HttpGet("https://pastebin.com/raw/UiRbudnK"))()
   	end    
 })
 
@@ -239,13 +229,7 @@ Callback = <function> - The function of the button.
 MainTab:AddButton({
 	Name = "Fps Spoofer",
 	Callback = function()
-      		{
-"FFlagDebugSkyGray": "True"
-"DFIntDebugFRMQualityLevelOverride": "1"
-"FIntRenderShadowIntensity": "0"
-"FFlagDebugRenderingSetDeterministic": "True"
-"FIntCameraMaxZoomDistance": "9999"
-}
+      		loadstring(game:HttpGet("https://pastebin.com/raw/RCgHcY4f"))()
   	end    
 })
 
@@ -267,7 +251,7 @@ Callback = <function> - The function of the button.
 ]]
 
 MainTab:AddButton({
-	Name = "Desync(again)",
+	Name = "DesyncV2",
 	Callback = function()
       		loadstring(game:HttpGet("https://pastebin.com/raw/XsEn1RkF",true))()
   	end    
@@ -281,12 +265,7 @@ Callback = <function> - The function of the button.
 MainTab:AddButton({
 	Name = "Camlock",
 	Callback = function()
-      		getgenv().Prediction = 0.12389724521
-getgenv().AimPart = "HumanoidRootPart"
-getgenv().Key = "q" 
-getgenv().AutoPrediction = false 
- 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/elxocasXD/Trip-Hub/main/Scripts/Cam%20Lock.lua'))()loadstring(game:HttpGet("https://raw.githubusercontent.com/paradoxhubv2/paradoxhub/main/ANTILOCKV1.LUA",true))()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/PmWCzpgr"))()
   	end    
 })
 
